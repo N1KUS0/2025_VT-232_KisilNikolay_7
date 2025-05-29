@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-0a661729ac56e996b10d.json",
+					"jsonFile" : "directory-.-Debug-8e5ad96c69a13d5019db.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "labs10::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-labs10-Debug-5c0283dc0f6db0807f3d.json",
+					"jsonFile" : "target-labs10-Debug-7b6680a64ec4857bd3d6.json",
 					"name" : "labs10",
 					"projectIndex" : 0
 				},

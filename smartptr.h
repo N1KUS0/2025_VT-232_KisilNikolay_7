@@ -1,36 +1,22 @@
 #ifndef SMARTPTR_H
 #define SMARTPTR_H
 
+#include <memory>
+
 template <typename T>
-class SmartPtr {
+class smart_ptr {
     T* obj;
 public:
-    explicit SmartPtr(T* obj = nullptr) : obj(obj) {}
-    ~SmartPtr() { delete obj; }
+    explicit smart_ptr(T* obj) : obj(obj) {}
+    ~smart_ptr() { delete obj; }
+
+    T* operator->() { return obj; }
+    T& operator*() { return *obj; }
 
     // Запрет копирования
-    SmartPtr(const SmartPtr&) = delete;
-    SmartPtr& operator=(const SmartPtr&) = delete;
-
-    // Поддержка перемещения
-    SmartPtr(SmartPtr&& other) noexcept : obj(other.obj) {
-        other.obj = nullptr;
-    }
-
-    SmartPtr& operator=(SmartPtr&& other) noexcept {
-        if (this != &other) {
-            delete obj;
-            obj = other.obj;
-            other.obj = nullptr;
-        }
-        return *this;
-    }
-
-    T* operator->() const { return obj; }
-    T& operator*() const { return *obj; }
-    T* get() const { return obj; }
-
-    explicit operator bool() const { return obj != nullptr; }
+    smart_ptr(const smart_ptr&) = delete;
+    smart_ptr& operator=(const smart_ptr&) = delete;
 };
 
-#endif
+
+#endif // SMARTPTR_H

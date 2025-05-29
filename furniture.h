@@ -2,25 +2,25 @@
 #define FURNITURE_H
 
 #include <QString>
-#include <QRect>
-#include <QColor>
-#include <QPainter>
+#include <QPoint>
 
 class Furniture {
+protected:
     QString name;
-    QRect geometry;
-    QColor color;
+    QPoint position;
+    QSize size;
+
 public:
-    Furniture(QString name, const QRect& geom, const QColor& color);
+    Furniture(const QString& n, QPoint p, QSize s)
+        : name(n), position(p), size(s) {}
 
-    void draw(QPainter& painter) const;
+    virtual ~Furniture() = default;
 
-    QString getName() const;
-    QRect getGeometry() const;
-    QColor getColor() const;
+    virtual void draw(QPainter& painter) = 0;
 
-    void setGeometry(const QRect& geom);
-    void setColor(const QColor& col);
+    QPoint getPosition() const { return position; }
+    QSize getSize() const { return size; }
+    QString getName() const { return name; }
 };
 
-#endif // FURNITURE_H
+#endif

@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 48,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -372,7 +372,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		}
 	],
@@ -495,7 +496,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				8
 			]
 		},
 		{
@@ -506,7 +508,7 @@
 				5,
 				6,
 				7,
-				8
+				9
 			]
 		},
 		{
@@ -520,14 +522,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				9
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				11
 			]
 		}
 	],
@@ -574,8 +576,14 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "room.h",
+			"path" : "chair.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "chair.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
