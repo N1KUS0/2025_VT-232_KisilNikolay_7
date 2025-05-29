@@ -33,4 +33,4 @@ public:
     explicit operator bool() const { return obj != nullptr; }
 };
 
-#endif // SMARTPTR_H
+#endif
