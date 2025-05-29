@@ -1,0 +1,15 @@
+# ninja log v6
+7	515	7702032655091279	labs10_autogen/timestamp	e440cd2f57880463
+7	515	7702032655091279	labs10_autogen/mocs_compilation.cpp	e440cd2f57880463
+7	515	7702032655091279	C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/timestamp	e440cd2f57880463
+2283	2405	7702032673147504	labs10.exe	aa83bd940cf2c5b5
+7	515	7702032655091279	C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/mocs_compilation.cpp	e440cd2f57880463
+523	2283	7702032655542224	CMakeFiles/labs10.dir/mainwindow.cpp.obj	4a9e7d3b1e61602f
+518	2066	7702032655498149	CMakeFiles/labs10.dir/labs10_autogen/mocs_compilation.cpp.obj	d1479ab1aa4a0dbe
+521	2177	7702032655522224	CMakeFiles/labs10.dir/main.cpp.obj	610f0fa775635368
+25	130	7702035658001383	labs10_autogen/timestamp	e440cd2f57880463
+25	130	7702035658001383	labs10_autogen/mocs_compilation.cpp	e440cd2f57880463
+25	130	7702035658001383	C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/timestamp	e440cd2f57880463
+25	130	7702035658001383	C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/mocs_compilation.cpp	e440cd2f57880463
+131	1570	7702035659051216	CMakeFiles/labs10.dir/mainwindow.cpp.obj	4a9e7d3b1e61602f
+1570	1680	7702035673451044	labs10.exe	aa83bd940cf2c5b5
