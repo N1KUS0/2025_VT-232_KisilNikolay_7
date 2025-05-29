@@ -3,6 +3,8 @@
 
 #include <QString>
 #include <QPoint>
+#include <QGraphicsRectItem>
+#include <QBrush>
 
 class Furniture {
 protected:

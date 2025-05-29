@@ -1,5 +1,9 @@
 C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/User/Desktop/oop/labs10/mainwindow.h \
   C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/labs10_autogen/moc_predefs.h \
+  C:/Users/User/Desktop/oop/labs10/chair.h \
+  C:/Users/User/Desktop/oop/labs10/furniture.h \
+  C:/Users/User/Desktop/oop/labs10/smartptr.h \
+  C:/Users/User/Desktop/oop/labs10/table.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -194,6 +198,8 @@ C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2
   C:/msys64/mingw64/include/pthread_signal.h \
   C:/msys64/mingw64/include/pthread_time.h \
   C:/msys64/mingw64/include/pthread_unistd.h \
+  C:/msys64/mingw64/include/qt6/QtCore/QPoint \
+  C:/msys64/mingw64/include/qt6/QtCore/QString \
   C:/msys64/mingw64/include/qt6/QtCore/q17memory.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
   C:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
@@ -319,6 +325,8 @@ C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2
   C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
   C:/msys64/mingw64/include/qt6/QtCore/qxptype_traits.h \
   C:/msys64/mingw64/include/qt6/QtCore/qyieldcpu.h \
+  C:/msys64/mingw64/include/qt6/QtGui/QBrush \
+  C:/msys64/mingw64/include/qt6/QtGui/QPainter \
   C:/msys64/mingw64/include/qt6/QtGui/qaction.h \
   C:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
   C:/msys64/mingw64/include/qt6/QtGui/qbrush.h \
@@ -332,20 +340,28 @@ C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2
   C:/msys64/mingw64/include/qt6/QtGui/qimage.h \
   C:/msys64/mingw64/include/qt6/QtGui/qkeysequence.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpaintdevice.h \
+  C:/msys64/mingw64/include/qt6/QtGui/qpainter.h \
+  C:/msys64/mingw64/include/qt6/QtGui/qpainterpath.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpalette.h \
+  C:/msys64/mingw64/include/qt6/QtGui/qpen.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpixelformat.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpixmap.h \
   C:/msys64/mingw64/include/qt6/QtGui/qpolygon.h \
   C:/msys64/mingw64/include/qt6/QtGui/qregion.h \
   C:/msys64/mingw64/include/qt6/QtGui/qrgb.h \
   C:/msys64/mingw64/include/qt6/QtGui/qrgba64.h \
+  C:/msys64/mingw64/include/qt6/QtGui/qtextoption.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtgui-config.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtguiexports.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
   C:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
   C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
   C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+  C:/msys64/mingw64/include/qt6/QtWidgets/QGraphicsRectItem \
+  C:/msys64/mingw64/include/qt6/QtWidgets/QGraphicsScene \
   C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
+  C:/msys64/mingw64/include/qt6/QtWidgets/qgraphicsitem.h \
+  C:/msys64/mingw64/include/qt6/QtWidgets/qgraphicsscene.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
   C:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \

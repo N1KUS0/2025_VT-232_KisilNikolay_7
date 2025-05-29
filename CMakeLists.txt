@@ -25,8 +25,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         smartptr.h
         furniture.h
-        chair.h
-        chair.cpp
+        table.h
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET labs10 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

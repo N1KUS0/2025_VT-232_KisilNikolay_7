@@ -11,8 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -22,6 +24,11 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QGraphicsView *graphicsView;
+    QPushButton *btnAddChair;
+    QPushButton *btnSave;
+    QPushButton *btnLoad;
+    QPushButton *btnAddChair_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -29,13 +36,28 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(600, 400);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        graphicsView = new QGraphicsView(centralwidget);
+        graphicsView->setObjectName("graphicsView");
+        graphicsView->setGeometry(QRect(10, 10, 400, 300));
+        btnAddChair = new QPushButton(centralwidget);
+        btnAddChair->setObjectName("btnAddChair");
+        btnAddChair->setGeometry(QRect(420, 20, 150, 30));
+        btnSave = new QPushButton(centralwidget);
+        btnSave->setObjectName("btnSave");
+        btnSave->setGeometry(QRect(420, 220, 150, 30));
+        btnLoad = new QPushButton(centralwidget);
+        btnLoad->setObjectName("btnLoad");
+        btnLoad->setGeometry(QRect(420, 260, 150, 30));
+        btnAddChair_2 = new QPushButton(centralwidget);
+        btnAddChair_2->setObjectName("btnAddChair_2");
+        btnAddChair_2->setGeometry(QRect(420, 60, 150, 30));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 26));
+        menubar->setGeometry(QRect(0, 0, 600, 26));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -48,7 +70,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Furniture Planner", nullptr));
+        btnAddChair->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \321\201\321\202\321\203\320\273", nullptr));
+        btnSave->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\321\205\321\200\320\260\320\275\320\270\321\202\321\214", nullptr));
+        btnLoad->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214", nullptr));
+        btnAddChair_2->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \321\201\321\202\320\276\320\273", nullptr));
     } // retranslateUi
 
 };

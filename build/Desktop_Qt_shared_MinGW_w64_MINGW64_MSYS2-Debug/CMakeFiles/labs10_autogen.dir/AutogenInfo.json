@@ -332,12 +332,6 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/User/Desktop/oop/labs10/chair.h",
-			"MU",
-			"EWIEGA46WW/moc_chair.cpp",
-			null
-		],
-		[
 			"C:/Users/User/Desktop/oop/labs10/furniture.h",
 			"MU",
 			"EWIEGA46WW/moc_furniture.cpp",
@@ -353,6 +347,12 @@
 			"C:/Users/User/Desktop/oop/labs10/smartptr.h",
 			"MU",
 			"EWIEGA46WW/moc_smartptr.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/oop/labs10/table.h",
+			"MU",
+			"EWIEGA46WW/moc_table.cpp",
 			null
 		]
 	],
@@ -429,7 +429,6 @@
 	"SETTINGS_FILE" : "C:/Users/User/Desktop/oop/labs10/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/labs10_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/User/Desktop/oop/labs10/chair.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/labs10/main.cpp", "MU", null ],
 		[ "C:/Users/User/Desktop/oop/labs10/mainwindow.cpp", "MU", null ]
 	],

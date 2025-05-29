@@ -1,22 +1,42 @@
-#ifndef SMARTPTR_H
-#define SMARTPTR_H
-
-#include <memory>
+#ifndef SMART_PTR_H
+#define SMART_PTR_H
 
 template <typename T>
 class smart_ptr {
-    T* obj;
+    T* ptr;
+
 public:
-    explicit smart_ptr(T* obj) : obj(obj) {}
-    ~smart_ptr() { delete obj; }
+    // Конструктор
+    explicit smart_ptr(T* p = nullptr) : ptr(p) {}
 
-    T* operator->() { return obj; }
-    T& operator*() { return *obj; }
+    // Перемещающий конструктор
+    smart_ptr(smart_ptr&& other) noexcept : ptr(other.ptr) {
+        other.ptr = nullptr;
+    }
 
-    // Запрет копирования
+    // Перемещающее присваивание
+    smart_ptr& operator=(smart_ptr&& other) noexcept {
+        if (this != &other) {
+            delete ptr;
+            ptr = other.ptr;
+            other.ptr = nullptr;
+        }
+        return *this;
+    }
+
+    // Удаляем копирование
     smart_ptr(const smart_ptr&) = delete;
     smart_ptr& operator=(const smart_ptr&) = delete;
+
+    // Доступ к объекту
+    T* operator->() const { return ptr; }
+    T& operator*() const { return *ptr; }
+
+    // Деструктор
+    ~smart_ptr() { delete ptr; }
+
+    // Получение указателя (по необходимости)
+    T* get() const { return ptr; }
 };
 
-
-#endif // SMARTPTR_H
+#endif // SMART_PTR_H
