@@ -332,9 +332,21 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/User/Desktop/oop/labs10/furniture.h",
+			"MU",
+			"EWIEGA46WW/moc_furniture.cpp",
+			null
+		],
+		[
 			"C:/Users/User/Desktop/oop/labs10/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/User/Desktop/oop/labs10/room.h",
+			"MU",
+			"EWIEGA46WW/moc_room.cpp",
 			null
 		],
 		[
